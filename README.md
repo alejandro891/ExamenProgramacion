@@ -1,18 +1,39 @@
-## Getting Started
+# **Prueba Final Lógica – “Consumo de gasolina en vehículos”**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**Contexto:**
 
-## Folder Structure
+Se mide el consumo de gasolina de distintos vehículos durante varios días. La matriz `consumo[][]` representa el consumo en galones por día.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### 🔧 Enunciado:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **`public static int contarConsumosAltos(int[][] matriz)`**
+    - Cuenta cuántos valores de consumo superan los **8 galones por día**.
+2. **`public static double promedioConsumoModerado(int[][] matriz)`**
+    - Calcula el promedio de consumos entre **4 y 7 galones** (inclusive).
+3. **`public static void imprimirConsumoBajo(int[][] matriz)`**
+    - Imprime los valores menores a **3 galones**, indicando su posición `[i][j]`.
+4. **`public static int[] posicionConsumoMaximo(int[][] matriz)`**
+    - Devuelve la posición `[i][j]` del mayor valor de consumo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+### 🎯 BONUS:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. lo que deseen, especificar qué hace y por qué lo elegiste.
+
+---
+
+### ✅ **Criterios de evaluación:**
+
+| Criterio | Puntos |
+| --- | --- |
+| Uso correcto de arreglos y matrices | 1.5 |
+| Uso de condicionales adecuados | 1.5 |
+| Aplicación correcta de bucles | 1.0 |
+| Métodos bien definidos y llamados | 1.0 |
+| BONUS: implementación correcta | +0.5 |
+| **Total base** | **5.0** |
+
+---
